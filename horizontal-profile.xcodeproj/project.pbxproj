@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		30B8F7AA2F22415C95D44EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5289C15D60B41DBBC7AADB2 /* Foundation.framework */; };
-		4D55493D1BCC3690001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493C1BCC3690001E3D77 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4D55493D1BCC3690001E3D77 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D55493C1BCC3690001E3D77 /* Launch Screen.storyboard */; };
+		4F6A4C4D1D21C4D6006709BC /* FISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6A4C4C1D21C4D6006709BC /* FISViewController.m */; };
+		4F6A4C4F1D21C59E006709BC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6A4C4E1D21C59E006709BC /* Storyboard.storyboard */; };
+		4F6A4C511D21D2A4006709BC /* ignfinalv1jpg-c41deb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F6A4C501D21D2A4006709BC /* ignfinalv1jpg-c41deb.jpg */; };
 		7615DE68A7FD408294BF581F /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD179C6C4A5A43839ECF32E8 /* FISAppDelegate.m */; };
 		D0D7835FFCD34B79AC2E7477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E798758BBF044A70BEE06836 /* main.m */; };
 		E15752C0E46D4CEDACD0094B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFA4DAF6FC9457FA2C246E6 /* Images.xcassets */; };
@@ -29,6 +32,10 @@
 		2CFA4DAF6FC9457FA2C246E6 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43484FA67152489395F54DC3 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		4D55493C1BCC3690001E3D77 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4F6A4C4B1D21C4D6006709BC /* FISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISViewController.h; sourceTree = "<group>"; };
+		4F6A4C4C1D21C4D6006709BC /* FISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewController.m; sourceTree = "<group>"; };
+		4F6A4C4E1D21C59E006709BC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		4F6A4C501D21D2A4006709BC /* ignfinalv1jpg-c41deb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ignfinalv1jpg-c41deb.jpg"; sourceTree = "<group>"; };
 		6F5DB406E6C94332841A101B /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		855DAAE3806840F795A8F092 /* horizontal-profile-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "horizontal-profile-Prefix.pch"; sourceTree = "<group>"; };
 		A361BE65D745413AB2AE4BA0 /* horizontal-profile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "horizontal-profile-Info.plist"; sourceTree = "<group>"; };
@@ -97,6 +104,10 @@
 			children = (
 				6F5DB406E6C94332841A101B /* FISAppDelegate.h */,
 				DD179C6C4A5A43839ECF32E8 /* FISAppDelegate.m */,
+				4F6A4C4B1D21C4D6006709BC /* FISViewController.h */,
+				4F6A4C4C1D21C4D6006709BC /* FISViewController.m */,
+				4F6A4C4E1D21C59E006709BC /* Storyboard.storyboard */,
+				4F6A4C501D21D2A4006709BC /* ignfinalv1jpg-c41deb.jpg */,
 				DE6B38C886034C4B98712280 /* Resources */,
 			);
 			path = "horizontal-profile";
@@ -225,6 +236,8 @@
 			files = (
 				4D55493D1BCC3690001E3D77 /* Launch Screen.storyboard in Resources */,
 				E15752C0E46D4CEDACD0094B /* Images.xcassets in Resources */,
+				4F6A4C4F1D21C59E006709BC /* Storyboard.storyboard in Resources */,
+				4F6A4C511D21D2A4006709BC /* ignfinalv1jpg-c41deb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6A4C4D1D21C4D6006709BC /* FISViewController.m in Sources */,
 				7615DE68A7FD408294BF581F /* FISAppDelegate.m in Sources */,
 				D0D7835FFCD34B79AC2E7477 /* main.m in Sources */,
 			);
